@@ -1,0 +1,65 @@
+
+/*background image*/
+.bg-image {
+	background-image: url('https://cdn2.photostockeditor.com/c/0601/nature-pine-trees-near-water-with-fog-winter-winter-image.jpg');
+	height: 100%;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+    height: 100vh;
+    position: relative;
+    z-index: -1;
+
+}
+/*keyframes animations*/
+.girl {
+width: 600px;
+  height:600px;
+  position:absolute;
+  animation:girl 5s infinite;
+  animation-direction: alternate-reverse;
+  z-index: 3;
+   animation-timing-function: linear;
+   margin-top: -730px;
+
+}
+
+@keyframes girl {
+	0% {left: 50px;}
+	30% {left: 250px;}
+	65% {left: 350px;}
+	85% {left: 450px;}
+	100% {left: 650px;}
+}
+.bird{
+width: 380px;
+  height:300px;
+  position:absolute;
+  animation:bird 5s infinite;
+  animation-direction: alternate-reverse;
+  z-index: 4;
+  animation-timing-function: linear;
+  margin-top:-948px;
+}
+
+@keyframes bird {
+  from {left: 0px;}
+  to {left: 1000px;}
+}
+.cloud {
+width: 1928px;
+  height:638px;
+  position:absolute;
+  animation:cloud 5s infinite;
+  animation-direction: alternate-reverse;
+  z-index: 4;
+  animation-timing-function: linear;
+  margin-top: -640px;
+}
+
+@keyframes cloud {
+  from {right: 0px;}
+  to {right: 400px;}
+}
